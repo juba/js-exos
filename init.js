@@ -1,10 +1,11 @@
 $(document).ready(function( $ ) {
 
-    var img_ok = [		  
-		 ];
-    var img_erreur = [
-		     ];
+    var img_ok = ['http://upload.wikimedia.org/http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/320px-Broccoli_and_cross_section_edit.jpgwikipedia/commons/thumb/3/3b/Pommes-1.jpg/320px-Pommes-1.jpg',
+                'http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/421px-Karl_Marx_001.jpg']
 
+    var img_erreur = ['http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/320px-Broccoli_and_cross_section_edit.jpg',
+                    'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Flickr_-_europeanpeoplesparty_-_EPP_Congress_Brussels_4-5_February_2004_%2821%29.jpg/536px-Flickr_-_europeanpeoplesparty_-_EPP_Congress_Brussels_4-5_February_2004_%2821%29.jpg']
+  
     var tables = [1,2,3,4,5];
     var rand = -1;
     var bonne_reponse = "";
