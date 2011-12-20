@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Écriture des nombres</title>
+    <meta charset="utf-8" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="bootstrap/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="init.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      <section>
+	<div class="row">
+	  <div class="span16">
+	  
+	    <div id="nombre">
+	    </div>
+      
+	    <div id="form">
+	      <form action="#">
+		<input type="text" class="large" id="saisie" length="25" autocomplete="off" />
+		<input type="submit" class="btn primary" id="ok" value="OK !" />
+	      </form>
+	    </div>
+
+	    <div id="result" class="modal fade">
+	      <div class="modal-header">
+		<!-- <a class="close" href="#">×</a> -->
+		<h3 id="title-place"></h3>
+	      </div>
+	      <div id="image-place" class="modal-body">
+		<img src="" />
+	      </div>
+	      <div class="modal-footer">
+		<a class="btn" id="button-place" href="#"></a>
+	      </div>
+	    </div>
+
+	    <div id="stats">
+	      <p>Bonnes réponses : <span id="nb-bonnes">0</span><br />
+	      Mauvaises réponses : <span id="nb-erreurs">0 </span></p>
+	    </div>
+
+	  </div>
+	</div>
+      </section>
+    </div>
+  </body>
+</html>

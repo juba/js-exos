@@ -1,0 +1,39 @@
+#nombre { 
+  text-align: center;
+  font-size: 250px;
+  height: 300px;
+  line-height: 300px;
+}
+
+#form { 
+  text-align: center;
+  margin: 50px auto;
+}
+
+
+#form input[type=text] { 
+  color: #000;
+  font-size: 18px;
+  height: 22px;
+  padding: 3px;
+}
+
+#form input[type=submit] { 
+  vertical-align: top;
+}
+
+#image-place { 
+  text-align: center;
+}
+
+.modal-body img { 
+  max-height: 300px;
+}
+
+#stats { 
+  text-align:center;
+  font-size: 85%;
+  color: #999;
+}
+
+
