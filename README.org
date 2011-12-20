@@ -1,0 +1,46 @@
+* Qu'est-ce ?
+
+Un exemple très simple de questions/réponses en HTML/javascript.
+
+Par défaut, les questions posées sont la table de multiplication de 1 à 5.
+
+* Installation
+
+D'abord, télécharger les fichiers du projet.
+
+Ensuite, personnaliser les images à afficher en cas de bonne ou de mauvaise
+réponse. Ceci se fait en ajoutant des urls aux tableaux =img_ok= et
+=img_erreur= au début du fichier =init.js=.
+
+Par exemple, si votre enfant aime les frites et Karl Marx, vous pouvez
+définir =img_ok= comme suit :
+
+#+BEGIN_SRC javascript
+  var img_ok = ['http://upload.wikimedia.org/http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/320px-Broccoli_and_cross_section_edit.jpgwikipedia/commons/thumb/3/3b/Pommes-1.jpg/320px-Pommes-1.jpg',
+                'http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/421px-Karl_Marx_001.jpg']
+#+END_SRC
+
+Et s'il n'aime pas les brocolis et Jean-Pierre Raffarin :
+
+#+BEGIN_SRC javascript
+  var img_erreur = ['http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/320px-Broccoli_and_cross_section_edit.jpg',
+                    'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Flickr_-_europeanpeoplesparty_-_EPP_Congress_Brussels_4-5_February_2004_%2821%29.jpg/536px-Flickr_-_europeanpeoplesparty_-_EPP_Congress_Brussels_4-5_February_2004_%2821%29.jpg']
+  
+#+END_SRC
+
+Enfin, vous pouvez personnaliser les questions posées. Si vous souhaitez
+travailler les multiplications, modifiez le tableau =tables= du fichier
+=init.js=, qui par défaut pose des questions sur les tables de 1 à 5 :
+
+#+BEGIN_SRC javascript
+ var tables = [1,2,3,4,5];
+#+END_SRC
+
+* Usage
+
+Il vous suffit d'ouvrir le fichier =index.html= dans votre navigateur.
+
+* Remerciements
+
+CSS et javascript sont basés sur [[http://twitter.github.com/bootstrap/][Twitter Bootstrap]].
+
