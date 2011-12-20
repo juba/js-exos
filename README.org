@@ -36,6 +36,10 @@ travailler les multiplications, modifiez le tableau =tables= du fichier
  var tables = [1,2,3,4,5];
 #+END_SRC
 
+Vous pouvez aussi réécrire la fonction =change_question()= si vous souhaitez
+un autre type de questions/réponses.
+
+
 * Usage
 
 Il vous suffit d'ouvrir le fichier =index.html= dans votre navigateur.
